@@ -14,7 +14,7 @@ class Block{
         var angle = this.body.angle;
         var pos= this.body.position;
         //console.log(this.body.speed);
-        if(this.body.speed < 5){
+        if(this.body.speed < 3){
           push();
         translate(pos.x, pos.y);
         rotate(angle);
